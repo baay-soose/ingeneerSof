@@ -1,59 +1,86 @@
 import turtle 
 
+# rectangle 1
+for i in range(2):
+    turtle.forward(400)
+    turtle.left(90)
+    turtle.forward(10)
+    turtle.left(90)
 
-def carre():
-    car = turtle.Turtle()
-    for i in range(4) :
-        car.width(3)
-        car.forward(100)
-        car.left(90)
-def cercle():
-    cer = turtle.Turtle()
-    cer.circle(100)
-def demicercle():
-    dmcer = turtle.Turtle()
-    dmcer.circle(50, 180)
-def rectangle():
-    rec = turtle.Turtle() 
-    for i in range(2):
-        rec.forward(100)
-        rec.left(90)
-        rec.forward(50)
-        rec.left(90)
+turtle.penup()
+turtle.goto(0,10)
+turtle.pendown()
 
-def triangle():
-    trg = turtle.Turtle()
-    trg.width(3)
-    trg.goto(100,200)  
-    trg.rt(90)
-    trg.forward(200)
-    trg.rt(90)  
-    trg.forward(100)
-def polygone(cote):
-    for i in range(cote):
-        turtle.forward(100)
-        turtle.lt(360/cote)
-def losange():
-    los = turtle.Turtle()
-    for i in range(2):
-        los.forward(40)
-        los.left(120)
-        los.forward(40)
-        los.left(60)
-    
+#rectangle2 
+for i in range(2):
+    turtle.forward(400)
+    turtle.left(90)
+    turtle.forward(200)
+    turtle.left(90)
 
+turtle.penup()
+turtle.goto(10, 15)
+turtle.pendown()    
 
+#fenetre1
+for i in range(2):
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(190)
+    turtle.left(90)
 
-if __name__ == '__main__':
-    """ carre()
-     rectangle()
-     triangle() 
-     cercle()
-    demicercle()
-    losange()"""
+turtle.penup()
+turtle.goto(150, 15)
+turtle.pendown()
 
-    
+#fenetre2
+for i in range(2):
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(190)
+    turtle.left(90)
 
+turtle.penup()
+turtle.goto(290, 15)
+turtle.pendown()
 
-   
-    turtle.done()
+#fenetre3
+for i in range(2):
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(190)
+    turtle.left(90)
+
+turtle.penup()
+turtle.goto(15, 20)
+turtle.pendown()
+
+#fdd1
+for i in range(2):
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(95)
+    turtle.left(90)
+
+turtle.penup()
+turtle.goto(15, 150)
+turtle.pendown()
+
+#fdd11
+for i in range(2):
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+
+turtle.penup()
+turtle.goto(155, 17)
+turtle.pendown()
+
+#fdd2
+for i in range(2):
+    turtle.forward(90)
+    turtle.left(90)
+    turtle.forward(95)
+    turtle.left(90)
+turtle.done()
